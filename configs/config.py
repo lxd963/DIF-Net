@@ -5,7 +5,7 @@ class Config:
         # Data settings
         self.data_root = 'dataset/PCG_and_STFT'
         self.image_size = 224
-        self.batch_size = 64
+        self.batch_size = 128
         
         # Model settings
         self.model_name = 'dualpath_ffc_resnet18'
@@ -17,7 +17,7 @@ class Config:
         
         # Training settings
         self.epochs = 100
-        self.lr = 0.006
+        self.lr = 0.0007
         self.weight_decay = 0.001
         self.gradient_clip = 1.0
         
